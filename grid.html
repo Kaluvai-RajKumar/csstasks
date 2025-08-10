@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .heading{
+            text-align: center;
+            color: brown;
+        }
+        .con{
+            height: 95vh;
+            width: 30vw;
+            padding: 20px;
+            border: 5px solid red;
+            transform: translate(117%);
+            text-align: center;
+            color: red;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap:20px;
+        }
+        .one{
+            text-align: center;
+            padding-top: 5vh;
+            font-size: x-large;
+            color: white;
+            background-color:blue;
+            grid-column: 1/3;
+        }
+        .two{
+            text-align: center;
+            color: white;
+            padding-top: 13vh;
+            font-size: x-large;
+            background-color:blue;
+            grid-row: 2/4;
+            grid-column: 1/2;
+            
+        }
+        .three{
+            text-align: center;
+            color: white;
+            padding-top: 5vh;
+            font-size: x-large;
+            background-color:blue;
+            grid-row: 2/3;
+            grid-column: 2/3;
+
+
+        }
+        .four{
+            text-align: center;
+            color: white;
+            padding-top: 5vh;
+            font-size: x-large;
+            background-color:blue;
+            grid-row: 3/4;
+            grid-column: 2/3;
+
+        }
+        .five{
+            text-align: center;
+            color: white;
+            padding-top: 9vh;
+            font-size: x-large;
+            background-color:blue;
+            grid-row: 4/6;
+            grid-column: 1/3;
+
+        }
+        .six{
+             text-align: center;
+            color: white;
+            padding-top: 4vh;
+            font-size: x-large;
+            background-color:blue;
+            grid-row: 6/7;
+            grid-column: 1/3;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="heading"><h1>GRID</h1></div>
+    <div class="con">
+        <div class="one">Header</div>
+        <div class="two">Article</div>
+        <div class="three">Test1</div>
+        <div class="four">Test2</div>
+        <div class="five">main</div>
+        <div class="six">Footer</div>
+
+    </div>
+    
+</body>
+</html>
